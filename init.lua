@@ -5,6 +5,7 @@ vim.g.loaded_netrwPlugin = 1
 require "plugins" -- neovim plugin manager
 
 require "settings"
+require "settings.keymaps"
 require "settings.colorscheme"
 
 require "plugins.alpha"
