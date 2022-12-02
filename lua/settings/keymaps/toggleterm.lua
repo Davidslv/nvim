@@ -1,6 +1,6 @@
 -- Toggleterm
 
 vim.keymap.set(
-  "n", "<leader>g", "<cmd>lua _lazygit_toggle()<CR>",
+  "n", "<leader>lg", "<cmd>lua _lazygit_toggle()<CR>",
   {noremap = true, silent = true}
 )

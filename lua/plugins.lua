@@ -115,7 +115,6 @@ return packer.startup(function(use)
   }
   use { "akinsho/toggleterm.nvim" } -- helps to manage multiple terminal windows
   use { "ahmedkhalf/project.nvim" } -- superior project management
-  use { "jesseduffield/lazygit" }   -- simple terminal UI for git
   use { "rcarriga/nvim-notify" }    -- notification manager for NeoVim
   use { "beauwilliams/focus.nvim" } -- auto-resizing splits/windows
 
