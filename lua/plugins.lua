@@ -40,6 +40,13 @@ packer.init({
 
 -- Install your plugins here
 return packer.startup(function(use)
+	-- load lua path
+
+	local lua_path = function(name)
+		return string.format("require.'plugins.%s'", name)
+	end
+
+
   -- use { "lewis6991/impatient.nvim" } -- improves startup time.
   use { "wbthomason/packer.nvim" } -- Have packer manage itself
   use { "nvim-lua/plenary.nvim" }  -- Useful lua functions used by lots of plugins
@@ -101,6 +108,7 @@ return packer.startup(function(use)
   use { "lukas-reineke/indent-blankline.nvim" } -- vertical indentation alignment lines
   use {
     "nvim-tree/nvim-tree.lua", -- A file explorer tree for neovim written in lua
+		config = lua_path("nvim-tree"),
     requires = {
       { "nvim-tree/nvim-web-devicons" } -- enables icons for nvim-tree
     }
