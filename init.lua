@@ -10,3 +10,4 @@ require "settings.colorscheme"
 
 require "plugins.alpha"
 require "plugins.nvim-tree"
+require "plugins.toggleterm"
