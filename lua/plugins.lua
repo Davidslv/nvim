@@ -84,7 +84,7 @@ return packer.startup(function(use)
   -- https://github.com/neoclide/coc.nvim
   -- need this to glue with sorbet
   -- http://mikker.github.io/2019/06/21/using-sorbet-with-vim-via-coc.html
-  use { "neoclide/coc.nvim" } 
+  use { "neoclide/coc.nvim", run = "cd app && yarn install" }
 
 	-- Colorschemes
   use { "olimorris/onedarkpro.nvim" }
@@ -112,11 +112,11 @@ return packer.startup(function(use)
   use { "lukas-reineke/indent-blankline.nvim" } -- vertical indentation alignment lines
   use {
     "nvim-tree/nvim-tree.lua", -- A file explorer tree for neovim written in lua
-		config = lua_path("nvim-tree"),
     requires = {
       { "nvim-tree/nvim-web-devicons" } -- enables icons for nvim-tree
     }
   }
+
   use { "akinsho/toggleterm.nvim" } -- helps to manage multiple terminal windows
   use { "ahmedkhalf/project.nvim" } -- superior project management
   use { "rcarriga/nvim-notify" }    -- notification manager for NeoVim
@@ -140,14 +140,14 @@ return packer.startup(function(use)
   use { "vim-test/vim-test" } -- running ruby tests inside editor
   use { "thoughtbot/vim-rspec" } -- a lightweight RSpec runner
 
-  use {
-    "pwntester/octo.nvim", -- Edit and review GitHub pull requests
-    requires = {
-      { "nvim-lua/plenary.nvim" },
-      { "nvim-telescope/telescope.nvim" },
-      { "nvim-tree/nvim-web-devicons" },
-    }
-  }
+  -- use {
+  --   "pwntester/octo.nvim", -- Edit and review GitHub pull requests
+  --   requires = {
+  --     { "nvim-lua/plenary.nvim" },
+  --     { "nvim-telescope/telescope.nvim" },
+  --     { "nvim-tree/nvim-web-devicons" },
+  --   }
+  -- }
 
   use { "fedepujol/move.nvim" } -- moves lines vertically / horizontally
 	use { 'christoomey/vim-tmux-navigator' } -- Tmux
