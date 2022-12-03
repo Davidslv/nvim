@@ -21,6 +21,12 @@ Open `nvim` and enter the following:
 :checkhealth
 ```
 
+### which-key plugin
+
+[which-key](https://github.com/folke/which-key.nvim) plugin is installed and aims to help reaching necessary commands.
+To open the plugin press `\ w` (backslash followed by **w**).
+
+
 ## Ruby
 
 - Make sure you have your package manager install
