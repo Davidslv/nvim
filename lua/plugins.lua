@@ -81,6 +81,10 @@ return packer.startup(function(use)
       { "williamboman/mason.nvim" } -- simple to use language server installer
     }
    }
+  -- https://github.com/neoclide/coc.nvim
+  -- need this to glue with sorbet
+  -- http://mikker.github.io/2019/06/21/using-sorbet-with-vim-via-coc.html
+  use { "neoclide/coc.nvim" } 
 
 	-- Colorschemes
   use { "olimorris/onedarkpro.nvim" }

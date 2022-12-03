@@ -27,7 +27,37 @@ Open `nvim` and enter the following:
 - Make sure you do have a ruby version installed
 
 ```
-gem install neovim solargraph
+$ gem install neovim solargraph
+
+cd /path/to/workspace
+
+# in the directory of the project create a .solargraph.yml file
+touch .solargraph.yml
+```
+
+- https://solargraph.org/guides/configuration
+
+```yaml
+include:
+- "**/*.rb"
+exclude:
+- spec/**/*
+- test/**/*
+- vendor/**/*
+- db/**/*
+- ".bundle/**/*"
+require: []
+domains: []
+reporters:
+- rubocop
+- require_not_found
+max_files: 8000
+```
+
+And then scan the project directory
+
+```
+$ solargraph scan -v
 ```
 
 ### Folder structure
@@ -51,6 +81,15 @@ lua
    │  └── toggleterm.lua
    └── keymaps.lua
 ```
+
+### Troubleshooting
+
+`:LspRestart`
+
+Warning: The workspace is too large to index
+- https://github.com/castwide/solargraph/issues/54
+
+
 
 
 ### Have fun!
