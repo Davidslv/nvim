@@ -10,7 +10,7 @@
 Clone this repository into `~/.config/nvim`
 
 ```
-git clone git@github.com:Davidslv/neovim.git ~/.config/nvim
+git clone git@github.com:Davidslv/nvim.git ~/.config/nvim
 ```
 
 ## Healtcheck
