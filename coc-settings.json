@@ -7,4 +7,9 @@
     "initializationOptions": {},
     "settings": {}
   }
+},
+"solargraph.transport": "external",
+"solargraph.externalServer": {
+    "host": "localhost",
+    "port": 7658
 }

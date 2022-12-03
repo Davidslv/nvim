@@ -84,7 +84,10 @@ return packer.startup(function(use)
   -- https://github.com/neoclide/coc.nvim
   -- need this to glue with sorbet
   -- http://mikker.github.io/2019/06/21/using-sorbet-with-vim-via-coc.html
-  use { "neoclide/coc.nvim", run = "cd app && yarn install" }
+	-- cd ~/.local/share/nvim/site/pack/packer/start/coc.nvim
+	-- yarn install
+  use { "neoclide/coc.nvim", branch = 'release' }
+	use { 'lervag/vimtex' }
 
 	-- Colorschemes
   use { "olimorris/onedarkpro.nvim" }

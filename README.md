@@ -5,7 +5,7 @@
 [Documentation](https://neovim.io/doc/general/) |
 [Github](https://github.com/neovim/neovim/)
 
-# Installation
+# Installation
 
 Clone this repository into `~/.config/nvim`
 
@@ -13,7 +13,7 @@ Clone this repository into `~/.config/nvim`
 git clone git@github.com:Davidslv/neovim.git ~/.config/nvim
 ```
 
-## Healtcheck
+## Healtcheck
 
 Open `nvim` and enter the following:
 
@@ -21,7 +21,7 @@ Open `nvim` and enter the following:
 :checkhealth
 ```
 
-## Ruby
+## Ruby
 
 - Make sure you have your package manager install
 - Make sure you do have a ruby version installed
@@ -60,7 +60,7 @@ And then scan the project directory
 $ solargraph scan -v
 ```
 
-### Folder structure
+### Folder structure
 
 ```
 lua
@@ -89,6 +89,21 @@ lua
 Warning: The workspace is too large to index
 - https://github.com/castwide/solargraph/issues/54
 
+
+`neoclide/coc.nvim`
+
+> [coc.nvim] build/index.js not found, please install dependencies and compile coc.nvim by: yarn install
+
+You need to run `yarn install` manually in the `coc.nvim` packer directory
+
+```
+cd ~/.local/share/nvim/site/pack/packer/start/coc.nvim
+yarn install
+```
+
+**Trigger completion**
+
+https://github.com/neoclide/coc.nvim/wiki/Completion-with-sources#use-tab-or-custom-key-for-trigger-completion
 
 
 
