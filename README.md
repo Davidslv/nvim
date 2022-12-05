@@ -70,7 +70,7 @@ Each vim is quite personal to each individual, you should customize it to your o
 ### Commands
 
 | Plugin         | Command       | Description                                                                                          |
-|----------------|:-------------:|:-----------------------------------------------------------------------------------------------------|
+|:--------------:|:-------------:|:-----------------------------------------------------------------------------------------------------|
 | [NvimTree][1]  |  a            | Press `a` (**a**dd) to create a new file, you need to be on the file Explorer                        |
 | [NvimTree][1]  |  r            | Press `r` (**r**ename) to rename a file/folder                                                       |
 | [NvimTree][1]  |  d            | Press `d` (**d**elete) to delete a file/folder                                                       |
