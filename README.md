@@ -76,7 +76,7 @@ Each vim is quite personal to each individual, you should customize it to your o
 | [NvimTree][1]  |  d            | Press `d` (**d**elete) to delete a file/folder                                                       |
 | [NvimTree][1]  |  o            | Press `o` (**o**pen) to open a folder                                                                |
 | [NvimTree][1]  |  f            | Press `f` (**f**ilter) to filter files with given match                                              |
-| [NvimTree][1]  |  m            | Press `m` (**m**ark) toggle mark node - think of selecting a tree node (to use with `bmv`)           |
+| [NvimTree][1]  |  m            | Press `m` (**m**ark) toggle mark node, selects a tree node (to use with `bmv`)                       |
 | [NvimTree][1]  |  bmv          | Press `bmv` (bulk move) marked notes to given destination                                            |
 | [WhichKey][2]  | \<leader\>w   | Press `\w` to popup menu with possible key bindings                                                  |
 | [Telescope][3] | \<leader\>ff  | Press `\ff` to popup menu to find files by name                                                      |
