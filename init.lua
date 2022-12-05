@@ -2,6 +2,10 @@
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
+-- vim-test
+vim.g['test#neovim#term_position'] = 'vert'
+vim.g['test#strategy'] = 'neovim'
+
 require "plugins" -- neovim plugin manager
 
 require "settings"
