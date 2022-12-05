@@ -10,7 +10,9 @@
 Make sure you have install [homebrew](https://brew.sh/).
 Then run the following command to install Neovim and some dependencies.
 
-[See the Brewfile for details]
+[See the [Brewfile][brewfile] for details]
+[brewfile]: https://github.com/Davidslv/nvim/blob/main/Brewfile
+
 ```
 brew bundle install --verbose --no-lock
 ```
