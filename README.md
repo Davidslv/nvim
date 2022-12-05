@@ -56,14 +56,17 @@ Each vim is quite personal to each individual, you should customize it to your o
 
 ### Commands
 
-| Plugin    |   Command     |  Description                                                                     |
-|-----------|:-------------:|---------------------------------------------------------------------------------:|
-| NvimTree  |  a            | Press `a` (**a**dd) to create a new file, you need to be on the file Explorer    |
-| NvimTree  |  r            | Press `r` (**r**ename) to rename a file/folder                                   |
-| NvimTree  |  d            | Press `d` (**d**elete) to delete a file/folder                                   |
-| NvimTree  |  o            | Press `o` (**o**pen) to open a folder                                            |
-| NvimTree  |  f            | Press `f` (**f**ilter) to filter files with given match                          |
+| Plugin         | Command       | Description                                                                      |
+|----------------|:-------------:|---------------------------------------------------------------------------------:|
+| [NvimTree][1]  |  a            | Press `a` (**a**dd) to create a new file, you need to be on the file Explorer    |
+| [NvimTree][1]  |  r            | Press `r` (**r**ename) to rename a file/folder                                   |
+| [NvimTree][1]  |  d            | Press `d` (**d**elete) to delete a file/folder                                   |
+| [NvimTree][1]  |  o            | Press `o` (**o**pen) to open a folder                                            |
+| [NvimTree][1]  |  f            | Press `f` (**f**ilter) to filter files with given match                          |
+| [WhichKey][2]  |  <leader>w    | Press `\w` to popup menu with possible key bindings                              |
 
+[1]: https://github.com/nvim-tree/nvim-tree.lua
+[2]: https://github.com/folke/which-key.nvim
 
 ### which-key plugin
 
