@@ -74,11 +74,6 @@ Each vim is quite personal to each individual, you should customize it to your o
 [2]: https://github.com/folke/which-key.nvim
 [3]: https://github.com/nvim-telescope/telescope.nvim
 
-### which-key plugin
-
-[which-key](https://github.com/folke/which-key.nvim) plugin is installed and aims to help reaching necessary commands.
-To open the plugin press `\ w` (backslash followed by **w**).
-
 
 ## Ruby
 
