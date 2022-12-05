@@ -21,6 +21,39 @@ Open `nvim` and enter the following:
 :checkhealth
 ```
 
+### Folder structure
+
+```
+lua
+├── lsp                    - LSP Configuration
+├── plugins                - this is where you setup your plugins
+│  ├── alpha.lua
+│  ├── nvim-tree.lua
+│  ├── nvim-treesitter.lua
+│  ├── toggleterm.lua
+│  └── which-key.lua
+├── plugins.lua            - this is where all plugins are installed, via packer
+└── settings
+   ├── colorscheme.lua
+   ├── init.lua            - main settings
+   ├── keymaps             - this is where you setup your keymaps
+   │  ├── nvim-tree.lua
+   │  ├── telescope.lua
+   │  └── toggleterm.lua
+   └── keymaps.lua
+```
+
+### Custom Development Environment
+
+Each vim is quite personal to each individual, you should customize it to your own needs.
+
+- Lua-fy everthing
+  - Settings
+  - Keymaps
+  - Commands
+  - Autocmds
+  - etc..
+
 ### which-key plugin
 
 [which-key](https://github.com/folke/which-key.nvim) plugin is installed and aims to help reaching necessary commands.
@@ -66,27 +99,6 @@ And then scan the project directory
 $ solargraph scan -v
 ```
 
-### Folder structure
-
-```
-lua
-├── lsp                    - LSP Configuration
-├── plugins                - this is where you setup your plugins
-│  ├── alpha.lua
-│  ├── nvim-tree.lua
-│  ├── nvim-treesitter.lua
-│  ├── toggleterm.lua
-│  └── which-key.lua
-├── plugins.lua            - this is where all plugins are installed, via packer
-└── settings
-   ├── colorscheme.lua
-   ├── init.lua            - main settings
-   ├── keymaps             - this is where you setup your keymaps
-   │  ├── nvim-tree.lua
-   │  ├── telescope.lua
-   │  └── toggleterm.lua
-   └── keymaps.lua
-```
 
 ### Troubleshooting
 
