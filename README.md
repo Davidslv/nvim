@@ -5,6 +5,18 @@
 [Documentation](https://neovim.io/doc/general/) |
 [Github](https://github.com/neovim/neovim/)
 
+# Pre-Installation
+
+Make sure you have install [homebrew](https://brew.sh/).
+Then run the following command to install Neovim and some dependencies.
+
+[See the Brewfile for details]
+```
+brew bundle install --verbose --no-lock
+```
+
+
+
 # Installation
 
 Clone this repository into `~/.config/nvim`
