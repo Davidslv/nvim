@@ -63,7 +63,7 @@ Each vim is quite personal to each individual, you should customize it to your o
 | [NvimTree][1]  |  d            | Press `d` (**d**elete) to delete a file/folder                                   |
 | [NvimTree][1]  |  o            | Press `o` (**o**pen) to open a folder                                            |
 | [NvimTree][1]  |  f            | Press `f` (**f**ilter) to filter files with given match                          |
-| [WhichKey][2]  |  <leader>w    | Press `\w` to popup menu with possible key bindings                              |
+| [WhichKey][2]  |  \<leader\>w    | Press `\w` to popup menu with possible key bindings                              |
 
 [1]: https://github.com/nvim-tree/nvim-tree.lua
 [2]: https://github.com/folke/which-key.nvim
