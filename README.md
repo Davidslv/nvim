@@ -89,6 +89,7 @@ Each vim is quite personal to each individual, you should customize it to your o
 [1]: https://github.com/nvim-tree/nvim-tree.lua
 [2]: https://github.com/folke/which-key.nvim
 [3]: https://github.com/nvim-telescope/telescope.nvim
+[4]: https://github.com/tpope/vim-rails
 
 
 ## Ruby
