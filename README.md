@@ -56,17 +56,23 @@ Each vim is quite personal to each individual, you should customize it to your o
 
 ### Commands
 
-| Plugin         | Command       | Description                                                                      |
-|----------------|:-------------:|---------------------------------------------------------------------------------:|
-| [NvimTree][1]  |  a            | Press `a` (**a**dd) to create a new file, you need to be on the file Explorer    |
-| [NvimTree][1]  |  r            | Press `r` (**r**ename) to rename a file/folder                                   |
-| [NvimTree][1]  |  d            | Press `d` (**d**elete) to delete a file/folder                                   |
-| [NvimTree][1]  |  o            | Press `o` (**o**pen) to open a folder                                            |
-| [NvimTree][1]  |  f            | Press `f` (**f**ilter) to filter files with given match                          |
-| [WhichKey][2]  |  \<leader\>w    | Press `\w` to popup menu with possible key bindings                              |
+| Plugin         | Command       | Description                                                                                          |
+|----------------|:-------------:|-----------------------------------------------------------------------------------------------------:|
+| [NvimTree][1]  |  a            | Press `a` (**a**dd) to create a new file, you need to be on the file Explorer                        |
+| [NvimTree][1]  |  r            | Press `r` (**r**ename) to rename a file/folder                                                       |
+| [NvimTree][1]  |  d            | Press `d` (**d**elete) to delete a file/folder                                                       |
+| [NvimTree][1]  |  o            | Press `o` (**o**pen) to open a folder                                                                |
+| [NvimTree][1]  |  f            | Press `f` (**f**ilter) to filter files with given match                                              |
+| [WhichKey][2]  | \<leader\>w   | Press `\w` to popup menu with possible key bindings                                                  |
+| [Telescope][3] | \<leader\>ff  | Press `\ff` to popup menu to find files by name                                                      |
+| [Telescope][3] | \<leader\>fg  | Press `\fg` to popup menu to find text in files                                                      |
+| [Telescope][3] | \<leader\>fb  | Press `\fb` to popup menu to list open buffers in current Neovim instance                            |
+| Native         | \<C-v\>       | Press `CTRL + v` to enter visual mode (text selection)                                               |
+| Native         | \<C-v\> + c   | `CTRL + v`, select, press `c`, apply your change, press `ESC`, everything select should have changed |
 
 [1]: https://github.com/nvim-tree/nvim-tree.lua
 [2]: https://github.com/folke/which-key.nvim
+[3]: https://github.com/nvim-telescope/telescope.nvim
 
 ### which-key plugin
 
